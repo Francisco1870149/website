@@ -1,11 +1,26 @@
+aside {
+    width: 30%;
+    padding-left: 15px;
+    margin: auto;
+    float: end;
+    background-color: rgb(151, 170, 204);
+  }
+
 p{
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
 }
 
 h2{
     color: white;
 }
+
+.Div {
+    border: 5px outset red;
+    background-color: lightblue;
+    text-align: center;
+  }
 
 .slider {
     width: 800px;
@@ -17,8 +32,8 @@ h2{
     display: flex;
     padding: 0;
     width: 800px;
-    animation: cambio 10s infinite;
-    animation-direction:alternate;
+    animation: tiempo 10s infinite;
+    animation-direction:normal;
 }
 
 .slider li{
@@ -31,7 +46,8 @@ h2{
     height: 450px;
 }
 
-@keyframes cambio {
+
+@keyframes tiempo {
     0% {margin-left: 0s;}
     30%{margin-left: 0;}
 
