@@ -1,12 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Página Universo Cinematográfico de Marvel">
+    <meta name="keywords" content="Marvel, MarvelStudios, StanLee, IronMan, WandaMaximoff">
+    <meta name="author" content="Diana Edith Ayala Núñez">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registro</title>
 </head>
-<body>
-    
+<body style="background-color: brown;" >
+    <h1 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;" >Suscribete para recibir noticias sobre Marvel</h1>
+    <h3 style="font-family:Verdana, Geneva, Tahoma, sans-serif;">Llena esta formulario para recibir noticias y más contenido sobre Marvel Studios</h3>
+
+    <div style="color: white;" >
+        <label for="">Nombre(s): </label>
+        <input type="text">
+        <label for="">Apellido Paterno: </label>
+        <input type="text">
+        <label for="">Apellido Materno: </label>
+        <input type="text"> <br><br>
+        <label for="k">Correo electronico: </label><input type="email" id="k">
+        <br><br>
+        <label for="categoria">¿Qué noticias te interesaria recibir?:</label>
+        <select name="categoria" id="categoria">
+            <option value="2">Próximos estrenos</option>
+            <option value="5">Noticias</option>
+            <option value="8">Cómics</option>
+        </select> <br> <br>
+
+        <label for="genero">Selecciona el género: </label> <br><br>
+        <label for="masculino">masculino</label>
+        <input type="radio" name="genero" id="masculino">
+        <label for="femenino">femenino</label>
+        <input type="radio" name="genero" id="femenino"> <br> <br>
+        <label for="fechuki">fecha de nacimiento: </label>
+        <input type="date" name="fecha" id="fechanacimiento">
+    </div>
+
+   <p> 
+       <button>enviar</button>
+   </p>
+
 </body>
 </html>
