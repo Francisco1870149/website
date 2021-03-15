@@ -5,6 +5,25 @@ body{
     width:100%;margin:auto;min-width:600px;max-width:2000px
 }
 
+h1{
+    color: rgb(88, 10, 141);
+    font-size: 50px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Segoe UI';
+}
+
+h2{
+    color: rgb(88, 10, 141);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+h3{
+    color: lightblue;
+    font-size: 40px;
+}
 
 .slider {
     width: 800px;
@@ -51,19 +70,7 @@ body{
     border-radius: 3px;
 } */
 
-h1{
-    color: rgb(88, 10, 141);
-    font-size: 50px;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-family: 'Segoe UI';
-}
 
-h2{
-    color: rgb(88, 10, 141);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
 
 .fotoPortada img{
 
@@ -77,6 +84,10 @@ h2{
 .home img{
     width: 30px;
     height: 20px;
+    float: left;
+    margin: 10px;
+    overflow: hidden;
+    padding: 15px;
 }
 
 /*.logoFB img{
@@ -102,13 +113,68 @@ ul,li {
   }
 
 .menu-lista img{
+    
     width: 20px;
     height: 20px;
 }
 
-h3{
-    color: lightblue;
-    font-size: 40px;
+.ventilacion-img img{
+    width: 40px;
+    height: 40px;
+    filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
+}
+
+.rapidez-img img{
+    width: 45px;
+    height: 40px;
+    filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
+}
+
+.repuesto-img img{
+    width: 45px;
+    height: 40px;
+    filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
+}
+
+.virus-img img{
+    width: 45px;
+    height: 40px;
+    filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
+}
+
+.sistema-img img{
+    width: 45px;
+    height: 40px;
+    filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
+}
+
+.programas-img img{
+    width: 45px;
+    height: 40px;
+    filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
+}
+
+.gif-portada img{
+    width: 600px;
+    border-style: solid;
+    border-color: rgb(88, 10, 141);
+    border-radius: 15px;
+}
+
+.nosotros-portada img{
+    border-style: solid;
+    border-color: rgb(88, 10, 141);
+    border-radius: 15px;
+}
+
+
+aside{
+    width: 20%;
+    overflow: hidden;
+}
+
+aside img{
+    width: 70%;
 }
 
 footer{
