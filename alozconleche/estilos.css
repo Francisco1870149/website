@@ -161,7 +161,11 @@ ul,li {
     border-radius: 15px;
 }
 
-
+.nosotros-portada img{
+    border-style: solid;
+    border-color: rgb(88, 10, 141);
+    border-radius: 15px;
+}
 
 
 aside{
