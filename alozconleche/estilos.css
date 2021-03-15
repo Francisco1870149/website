@@ -84,6 +84,10 @@ h3{
 .home img{
     width: 30px;
     height: 20px;
+    float: left;
+    margin: 10px;
+    overflow: hidden;
+    padding: 15px;
 }
 
 /*.logoFB img{
@@ -155,6 +159,18 @@ ul,li {
     border-style: solid;
     border-color: rgb(88, 10, 141);
     border-radius: 15px;
+}
+
+
+
+
+aside{
+    width: 20%;
+    overflow: hidden;
+}
+
+aside img{
+    width: 70%;
 }
 
 footer{
