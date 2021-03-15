@@ -150,6 +150,13 @@ ul,li {
     filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
 }
 
+.gif-portada img{
+    width: 600px;
+    border-style: solid;
+    border-color: rgb(88, 10, 141);
+    border-radius: 15px;
+}
+
 footer{
     float: right;
     text-align: center;
