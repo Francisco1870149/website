@@ -2,7 +2,9 @@ body{
     background-color: rgb(243, 243, 243);
 
 }
-
+a{
+    text-decoration: none;
+}
 #menu {
     background-color: rgb(83, 178, 255);
     padding: 10px;
@@ -126,7 +128,31 @@ footer{
     width: 100%;
 
 }
+footer address{
+    font-size: 15px;
+}
+address a{
+    text-decoration: none;
+    color: white;
+}
 
 
-
+.table{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-radius: 4px;
+    border-collapse: collapse;
+}
+.t
+.table td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+#promocion{
+    color: green;
+    font-size: 3em;
+    text-align: center;
+}
 
