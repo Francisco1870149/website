@@ -84,6 +84,10 @@ h3{
 .home img{
     width: 30px;
     height: 20px;
+    float: left;
+    margin: 10px;
+    overflow: hidden;
+    padding: 15px;
 }
 
 /*.logoFB img{
@@ -109,6 +113,7 @@ ul,li {
   }
 
 .menu-lista img{
+    
     width: 20px;
     height: 20px;
 }
@@ -147,6 +152,25 @@ ul,li {
     width: 45px;
     height: 40px;
     filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
+}
+
+.gif-portada img{
+    width: 600px;
+    border-style: solid;
+    border-color: rgb(88, 10, 141);
+    border-radius: 15px;
+}
+
+
+
+
+aside{
+    width: 20%;
+    overflow: hidden;
+}
+
+aside img{
+    width: 70%;
 }
 
 footer{
