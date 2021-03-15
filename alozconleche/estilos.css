@@ -1,9 +1,10 @@
-body{
+body{ 
     background-image: url(../alozconleche/recursos/background1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
+    width:100%;margin:auto;min-width:600px;max-width:2000px
 }
+
 
 .slider {
     width: 800px;
@@ -56,10 +57,12 @@ h1{
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    font-family: 'Segoe UI';
 }
 
 h2{
-    color: rgb(252, 164, 0);
+    color: rgb(88, 10, 141);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .fotoPortada img{
@@ -102,3 +105,15 @@ ul,li {
     width: 20px;
     height: 20px;
 }
+
+h3{
+    color: lightblue;
+    font-size: 40px;
+}
+
+footer{
+    float: right;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
