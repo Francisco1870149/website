@@ -1,10 +1,48 @@
-body{
-    background-image: url(../alozconleche/recursos/fondo-temporal.png);
+body{ 
+    background-image: url(../alozconleche/recursos/background1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
+    width:100%;margin:auto;min-width:600px;max-width:2000px
 }
 
+
+.slider {
+    width: 800px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 800px;
+    animation: cambio 20s infinite;
+    animation-direction:alternate;
+}
+
+.slider li{
+    width: 800px;
+    list-style: none;
+}
+
+.slider img{
+    width: 800px;
+    height: 450px;
+}
+
+@keyframes cambio {
+    0% {margin-left: 0s;}
+    30%{margin-left: 0;}
+
+    33% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
 
 /*.regresar_index li{
     color: white;
@@ -14,23 +52,68 @@ body{
 } */
 
 h1{
-    color: white;
+    color: rgb(88, 10, 141);
     font-size: 50px;
     text-align: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Segoe UI';
 }
 
 h2{
-    color: rgb(252, 164, 0);
+    color: rgb(88, 10, 141);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .fotoPortada img{
-    margin:auto;
-    display: block;
-    width:800px;
-    height: 400px;
+
+    width:300px;
+    height: 150px;
     border-radius: 10px;
     border-style: solid;
-    border-color: rgb(255, 169, 10);
+    border-color: rgb(190, 17, 4);
 }
+
+.home img{
+    width: 30px;
+    height: 20px;
+}
+
+/*.logoFB img{
+    margin: auto;
+    display: block;
+    width: 50px;
+    height: 40px;
+    position: static;
+    border-radius: 10px;
+    border-style: dotted;
+    border-color: rgb(238, 135, 1);
+} */
+
+ul,li {
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+.menu-lista li{
+    display: inline-block;
+    text-align: center;
+  }
+
+.menu-lista img{
+    width: 20px;
+    height: 20px;
+}
+
+h3{
+    color: lightblue;
+    font-size: 40px;
+}
+
+footer{
+    float: right;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+

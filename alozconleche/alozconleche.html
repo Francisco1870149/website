@@ -1,40 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
+    <!-- head -->
     <head>
         <title>TUPC</title>
         <meta charset="utf-8">
         <meta name="description" content="Pagina html: TUPC">
         <meta name="keywords" content="html, css, java">
         <meta name="author" content="Isaac Elias Perez Saenz">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="estilos.css">
     </head>
     
-<body>
+<body width:100%;margin:auto;min-width:600px;max-width:2000px>
+    <!-- Main -->
     <main>
+        <!-- Header -->
         <header>
             <h1>¡Bienvenido a TUPC, tu tienda de cómputo!</h1>
+            <div class="fotoPortada">
+                <p><a href="../alozconleche/alozconleche.html"><img src="recursos/portada2.jpg">
+                </a></p>
+            </div>
         </header>
-        <ul class="regresar_index">
-            <li><a href="../index.html"> <span style="background-color:rgb(163, 248, 4);"> Regresa al menu</span></a></li>
+
+        <!-- Navegacion -->
+        <nav class= "menu de navegacion" role="navigation">
+        <!-- Lista desordenada -->
+        <ul id="menu-pagina" class="menu-lista">
+        <hr>
+        <li class="menu0 nav-1 primero" id="nav-1"> <a href="../index.html" style="text-decoration:none"><img alt="LISTAS" src="..//alozconleche/recursos/lista.png">Regresa al listado &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;</a></li>
+        <li class="menu0 nav-2 segundo" id="nav-2"> <a href="../alozconleche/servicios.html" style="text-decoration:none"><img alt="SERVICES" src="..//alozconleche/recursos/servicios.png">Servicios &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;</a></li>
+        <li class="menu0 nav-3 tercero" id="nav-3"> <a href="../alozconleche/venta.html" style="text-decoration:none"><img alt="SALES" src="..//alozconleche/recursos/ventas.png">Venta &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;</a></li>
+        <li class="menu0 nav-4 cuarto" id="nav-4"> <a href="../alozconleche/nosotros.html" style="text-decoration:none"><img alt="US" src="..//alozconleche/recursos/info.png">Nosotros &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;</a></li>
+        <li class="menu0 nav-5 quinto" id="nav-5"> <a href="../alozconleche/contacto.html" style="text-decoration:none"><img alt="CONTACT" src="..//alozconleche/recursos/contacto.png">Contacto &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;</a></li>
         </ul>
-        <div class="fotoPortada">
-            <img src="recursos/portada2.jpg">
+        </nav>
+        <hr>
+
+        <!-- Lista de fotos para el slider -->
+        <div class="slider">
+            <ul>
+                <li><img src="../alozconleche/recursos/foto-slider1.jpg" alt=""></li>
+                <li><img src="../alozconleche/recursos/foto-slider2.jpg" alt=""></li>
+                <li><img src="../alozconleche/recursos/foto-slider3.jpg" alt=""></li>
+                <li><img src="../alozconleche/recursos/foto-slider4.png" alt=""></li>
+            </ul>
         </div>
-        <a href="https://www.facebook.com/TUPC-105549874654728" target="_blank">Enlace a la página de Facebook</a>
+
+        <!-- Section con Article -->
+        <section>
+            <article class="titulo">
+                <h3>Noticia</h3>
+                <p>Debido a la pandemia de COVID-19, favor de acatar las siguientes recomendaciones al acudir a nuestras instalaciones:</p>            
+            </article>
+            
+        </section>
         
         <section>
-            <header>
-                <h2>Servicios:</h2>
-            </header>
-            <p>-Reparación de Laptops</p>
-            <p>-Reparación de Computadoras de escritorio</p>
-            <p>-Mantenimiento preventivo y correctivo</p>
-            <p>-Instalación de redes</p>
-            <p>-Venta y ensamblado de equipos</p>
-            <p>*Sistema operativo: Windows </p>
+            <article>
+                <p><ul>
+                    <li>-Portar el cubrebocas.</li>
+                    <li>-Solo ingresar una persona por familia.</li>
+                    <li>-Desinfectarse las manos antes de entrar.</li>
+                    <li>-Dejarse tomar la temperatura en la frente.</li>
+                    <li>-Si hay fila, esperar su turno para ingresar.</li>
+                </ul></p>
+            </article>
         </section>
 
+        <!-- FOOTER -->
+        <footer>
+            <p><b>2021&reg;TUPC, S.A. DE C.V.</p></b>
+            <P>TODOS LOS DERECHOS RESERVADOS <strong><br>CREADO POR ISAAC PEREZ</strong></P>
+        </footer>
+        
     </main>
 </body>
 </html>
