@@ -177,4 +177,14 @@ address a{
     display: inline-block;
     
 }
-
+.div-form{
+    margin-top: 20px;
+}
+.enviar{
+    background-color:  rgb(83, 178, 255);
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-size: 1.5em;
+    color: white;
+}
