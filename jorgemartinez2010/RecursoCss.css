@@ -34,6 +34,7 @@ div{
 
 .c2{
     background-color: greenyellow;
+
 }
 
 aside{
@@ -45,3 +46,19 @@ aside{
     background-color: red;
 }
 
+.miDiv {
+    border: 5px outset yellow;
+    background-color: red;    
+    text-align: center;
+}
+
+iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menuli{
+    display: inline-block;
+    text-align: center;
+  }
