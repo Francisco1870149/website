@@ -51,10 +51,9 @@ aside{
     background-color: red;
 }
 
-.miDiv {
-    border: 5px outset yellow;
-    background-color: red;    
-    text-align: center;
+div{
+    color: white;
+    
 }
 
 iframe{
