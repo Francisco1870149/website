@@ -21,7 +21,7 @@ h2{
 
 
 h3{
-    color: lightblue;
+    color: lightseagreen;
     font-size: 40px;
 }
 
@@ -176,6 +176,16 @@ aside{
 aside img{
     width: 70%;
 }
+
+
+.subir img{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    overflow: hidden;
+    padding: 15px;
+}
+
 
 footer{
     float: right;
