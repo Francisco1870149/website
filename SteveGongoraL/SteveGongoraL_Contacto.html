@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Dc Comics Contacto</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Pagina con el fin de presentar información sobre la editorial de comics Dc">
+        <meta name="autor" content="Steve Brayton Góngora Luévano">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body style="background-color:rgb(153, 153, 153);">
+        <header>
+            <h1 id="titulo">Dc Comics Explore the Multiverse</h1>
+            <hr>
+            <nav>
+                <a href="SteveGongoraL_Index.html">Home</a>
+                <a href="SteveGongoraL_Comics.html">Comics</a>
+                <a href="SteveGongoraL_Cine.html">Cine</a>
+                <a href="SteveGongoraL_Television.html">Television</a>
+                <a href="SteveGongoraL_Contacto.html">Contacto</a>
+                <a href="/index.html">Index</a>
+            </nav>
+            <hr>
+            <h2>Pagina de Contacto</h2>
+            <figure><img src="Recursos/Telefono.gif" alt="Imagen alusiva a la serie de Batman 1966"><figcaption>Telefono serie Batman de 1966 <span>&#9743;</span></figcaption></figure>
+        </header>
+        <main>
+            <article>
+                <form action="" method="POST">
+                    <fieldset>
+                        <legend>&#9733;Encuesta Para Suscribirte&#9733;</legend>
+                        <div>
+                            <label for="Nombre">Nombre Completo:</label>
+                            <input type="text" name="Nombre" id="Nombre">
+                        </div>
+                        <div>
+                            <label for="masculino">Masculino</label>
+                            <input type="radio" name="genero" id="masculino">
+                            <label for="femenino">Femenino</label>
+                            <input type="radio" name="genero" id="femenino">
+                        </div>
+                        <div>
+                            <label for="fecha">Fecha Nacimiento: </label>
+                            <input type="date" name="fecha" id="fecha">
+                        </div>
+                        <div>
+                            <label for="categoria">Seleccione a que categoria desea suscribirse </label>
+                            <select name="categoria" id="categoria" multiple>
+                                <option value="1">Comics</option>
+                                <option value="2">Cine</option>
+                                <option value="3">Television</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="email">email: </label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                        <div>
+                            <label for="tel">Telefono de contacto: </label>
+                            <input type="tel" name="telefono" id="tel">
+                        </div>
+                        <div>
+                            <label for="condicion">Desea recibir infromacion mediante mensajes de texto: </label>
+                            <input type="checkbox" name="condicion" id="condicion">
+                        </div>
+                        <div>
+                            <label for="comentarios">Sugerencias para mejorar la pagina: </label>
+                            <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
+                        </div>
+                        <div>
+                            <input type="button" value="Enviar">
+                            <input type="reset" value="Restablecer">
+                        </div>
+                    </fieldset>
+                </form>
+            </article>
+            <hr>
+            <a href="#titulo">Ir arriba</a>
+        </main>
+    </body>
+</html>

@@ -1,13 +1,195 @@
-body{
-    background-image: url(../alozconleche/recursos/fondo-temporal.png);
+body{ 
+    background-image: url(../alozconleche/recursos/background1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    width:100%;margin:auto;min-width:600px;max-width:2000px
 }
 
 h1{
-    color: white;
+    color: rgb(88, 10, 141);
     font-size: 50px;
     text-align: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Segoe UI';
 }
+
+h2{
+    color: rgb(88, 10, 141);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+h3{
+    color: lightseagreen;
+    font-size: 40px;
+}
+
+.slider {
+    width: 800px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 800px;
+    animation: cambio 20s infinite;
+    animation-direction:alternate;
+}
+
+.slider li{
+    width: 800px;
+    list-style: none;
+}
+
+.slider img{
+    width: 800px;
+    height: 450px;
+}
+
+@keyframes cambio {
+    0% {margin-left: 0s;}
+    30%{margin-left: 0;}
+
+    33% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
+
+/*.regresar_index li{
+    color: white;
+    background-color: white;
+    margin: 5px 0px 5px 0px;
+    border-radius: 3px;
+} */
+
+
+
+.fotoPortada img{
+
+    width:300px;
+    height: 150px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(190, 17, 4);
+}
+
+.home img{
+    width: 30px;
+    height: 20px;
+    float: left;
+    margin: 10px;
+    overflow: hidden;
+    padding: 15px;
+}
+
+/*.logoFB img{
+    margin: auto;
+    display: block;
+    width: 50px;
+    height: 40px;
+    position: static;
+    border-radius: 10px;
+    border-style: dotted;
+    border-color: rgb(238, 135, 1);
+} */
+
+ul,li {
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+.menu-lista li{
+    display: inline-block;
+    text-align: center;
+  }
+
+.menu-lista img{
+    
+    width: 20px;
+    height: 20px;
+}
+
+.ventilacion-img img{
+    width: 40px;
+    height: 40px;
+    filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
+}
+
+.rapidez-img img{
+    width: 45px;
+    height: 40px;
+    filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
+}
+
+.repuesto-img img{
+    width: 45px;
+    height: 40px;
+    filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
+}
+
+.virus-img img{
+    width: 45px;
+    height: 40px;
+    filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
+}
+
+.sistema-img img{
+    width: 45px;
+    height: 40px;
+    filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
+}
+
+.programas-img img{
+    width: 45px;
+    height: 40px;
+    filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
+}
+
+.gif-portada img{
+    width: 600px;
+    border-style: solid;
+    border-color: rgb(88, 10, 141);
+    border-radius: 15px;
+}
+
+.nosotros-portada img{
+    border-style: solid;
+    border-color: rgb(88, 10, 141);
+    border-radius: 15px;
+}
+
+
+aside{
+    width: 20%;
+    overflow: hidden;
+}
+
+aside img{
+    width: 70%;
+}
+
+
+.subir img{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    overflow: hidden;
+    padding: 15px;
+}
+
+
+footer{
+    float: right;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
