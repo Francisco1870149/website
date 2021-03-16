@@ -21,7 +21,7 @@ h2{
 
 
 h3{
-    color: lightblue;
+    color: lightseagreen;
     font-size: 40px;
 }
 
@@ -161,7 +161,11 @@ ul,li {
     border-radius: 15px;
 }
 
-
+.nosotros-portada img{
+    border-style: solid;
+    border-color: rgb(88, 10, 141);
+    border-radius: 15px;
+}
 
 
 aside{
@@ -172,6 +176,16 @@ aside{
 aside img{
     width: 70%;
 }
+
+
+.subir img{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    overflow: hidden;
+    padding: 15px;
+}
+
 
 footer{
     float: right;
